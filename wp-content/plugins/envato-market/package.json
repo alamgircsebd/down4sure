@@ -1,0 +1,37 @@
+{
+	"name": "envato-market",
+	"title": "Envato Market",
+	"version": "2.0.12",
+	"homepage": "https://envato.com/market-plugin/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/envato/wp-envato-market.git"
+	},
+	"scripts": {
+		"deploy": "grunt deploy"
+	},
+	"author": "Envato",
+	"license": "GPL-2.0+",
+	"devDependencies": {
+		"eslint": "^8.47.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-n": "^16.3.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"grunt": "^1.6.1",
+		"grunt-checktextdomain": "~1.0.1",
+		"grunt-cli": "^1.4.3",
+		"grunt-contrib-clean": "~2.0.1",
+		"grunt-contrib-compress": "~2.0.0",
+		"grunt-contrib-copy": "~1.0.0",
+		"grunt-contrib-cssmin": "~5.0.0",
+		"grunt-contrib-uglify": "~5.2.2",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-eslint": "^24.0.1",
+		"grunt-rtlcss": "~2.0.2",
+		"grunt-sass": "~3.1.0",
+		"grunt-shell": "~4.0.0",
+		"grunt-wp-i18n": "^1.0.3",
+		"node-bourbon": "~4.2.8",
+		"node-sass": "^8.0.0"
+	}
+}

@@ -1,0 +1,549 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-13 13:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: brikk-utilities.php:76
+msgctxt "Pages options in wp-admin"
+msgid "Page"
+msgstr ""
+
+#: brikk-utilities.php:84
+msgctxt "Post options in wp-admin"
+msgid "Page"
+msgstr ""
+
+#: brikk-utilities.php:201
+msgid "Embed Cover"
+msgstr ""
+
+#: brikk-utilities.php:225
+msgid "All listing types"
+msgstr ""
+
+#: includes/class.elementor.articles.php:12
+msgid "Articles"
+msgstr ""
+
+#: includes/class.elementor.articles.php:34
+#: includes/class.elementor.board.php:32
+#: includes/class.elementor.boxes-trendy.php:32
+#: includes/class.elementor.boxes.php:43
+#: includes/class.elementor.button.php:32
+#: includes/class.elementor.cards.php:32
+#: includes/class.elementor.carousel.php:32
+#: includes/class.elementor.heading.php:32
+#: includes/class.elementor.listing-boxes.php:46
+#: includes/class.elementor.listings.php:34
+#: includes/class.elementor.table-contents.php:32
+#: includes/class.elementor.types.php:32
+msgid "Content"
+msgstr ""
+
+#: includes/class.elementor.articles.php:42
+#: includes/class.elementor.listings.php:42
+msgid "Rows"
+msgstr ""
+
+#: includes/class.elementor.articles.php:62
+msgid "Select Category"
+msgstr ""
+
+#: includes/class.elementor.articles.php:72
+msgid "Hide excerpt"
+msgstr ""
+
+#: includes/class.elementor.articles.php:74
+#: includes/class.elementor.boxes-trendy.php:67
+#: includes/class.elementor.boxes-trendy.php:128
+#: includes/class.elementor.button.php:91
+#: includes/class.elementor.button.php:105
+#: includes/class.elementor.button.php:116
+#: includes/class.elementor.carousel.php:120
+#: includes/class.elementor.listing-boxes.php:215
+#: includes/class.elementor.table-contents.php:92
+#: includes/class.elementor.types.php:106
+msgid "Yes"
+msgstr ""
+
+#: includes/class.elementor.articles.php:75
+#: includes/class.elementor.boxes-trendy.php:68
+#: includes/class.elementor.boxes-trendy.php:129
+#: includes/class.elementor.button.php:92
+#: includes/class.elementor.button.php:106
+#: includes/class.elementor.button.php:117
+#: includes/class.elementor.carousel.php:121
+#: includes/class.elementor.listing-boxes.php:216
+#: includes/class.elementor.table-contents.php:93
+#: includes/class.elementor.types.php:107
+msgid "No"
+msgstr ""
+
+#: includes/class.elementor.articles.php:118
+msgid "No articles were found."
+msgstr ""
+
+#: includes/class.elementor.board.php:10
+#: includes/class.elementor.heading.php:10
+msgid "Heading"
+msgstr ""
+
+#: includes/class.elementor.board.php:40 includes/class.elementor.board.php:42
+#: includes/class.elementor.carousel.php:70
+#: includes/class.elementor.heading.php:40
+#: includes/class.elementor.heading.php:42
+msgid "Title"
+msgstr ""
+
+#: includes/class.elementor.board.php:49
+#: includes/class.elementor.heading.php:86
+msgid "Sub-Title"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:10
+msgid "Boxes Trendy"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:40
+#: includes/class.elementor.listing-boxes.php:79
+msgid "Columns"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:52
+#: includes/class.elementor.boxes.php:79
+msgid "URI Location"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:55
+msgid "Rounded"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:56
+msgid "Square"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:65
+msgid "Double Box Height"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:81
+#: includes/class.elementor.boxes-trendy.php:83
+#: includes/class.elementor.boxes.php:52 includes/class.elementor.boxes.php:54
+#: includes/class.elementor.cards.php:41 includes/class.elementor.cards.php:43
+#: includes/class.elementor.carousel.php:159
+#: includes/class.elementor.carousel.php:161
+#: includes/class.elementor.table-contents.php:41
+#: includes/class.elementor.table-contents.php:43
+#: includes/class.elementor.types.php:53 includes/class.elementor.types.php:55
+msgid "Name"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:91
+#: includes/class.elementor.boxes.php:71 includes/class.elementor.types.php:71
+msgid "Image"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:99
+msgid "Overlay Element"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:106
+msgid "URI"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:108
+msgid "#"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:115
+#: includes/class.elementor.button.php:63
+#: includes/class.elementor.cards.php:66
+#: includes/class.elementor.listing-boxes.php:201
+msgid "Icon"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:126
+msgid "Enable Overlay"
+msgstr ""
+
+#: includes/class.elementor.boxes-trendy.php:138
+#: includes/class.elementor.boxes.php:21
+#: includes/class.elementor.boxes.php:129
+msgid "Boxes"
+msgstr ""
+
+#: includes/class.elementor.boxes.php:61 includes/class.elementor.boxes.php:63
+#: includes/class.elementor.cards.php:50
+#: includes/class.elementor.table-contents.php:50
+#: includes/class.elementor.types.php:62
+msgid "Description"
+msgstr ""
+
+#: includes/class.elementor.boxes.php:82
+msgid "Listing Type"
+msgstr ""
+
+#: includes/class.elementor.boxes.php:83
+msgid "Custom"
+msgstr ""
+
+#: includes/class.elementor.boxes.php:103
+#: includes/class.elementor.listing-boxes.php:104
+#: includes/class.elementor.listings.php:64
+msgid "Select Listing Type"
+msgstr ""
+
+#: includes/class.elementor.boxes.php:116
+msgid "Custom Location URI"
+msgstr ""
+
+#: includes/class.elementor.button.php:10
+#: includes/class.elementor.button.php:48
+msgid "Button"
+msgstr ""
+
+#: includes/class.elementor.button.php:46
+#: includes/class.elementor.table-contents.php:66
+msgid "Text"
+msgstr ""
+
+#: includes/class.elementor.button.php:55
+#: includes/class.elementor.cards.php:58 includes/class.elementor.types.php:78
+msgid "URL"
+msgstr ""
+
+#: includes/class.elementor.button.php:75
+#: includes/class.elementor.heading.php:157
+#: includes/class.elementor.listing-boxes.php:65
+msgid "Style"
+msgstr ""
+
+#: includes/class.elementor.button.php:78
+msgid "Default"
+msgstr ""
+
+#: includes/class.elementor.button.php:79
+msgid "Accent"
+msgstr ""
+
+#: includes/class.elementor.button.php:80
+msgid "Border"
+msgstr ""
+
+#: includes/class.elementor.button.php:89
+msgid "White Color"
+msgstr ""
+
+#: includes/class.elementor.button.php:103
+msgid "Open in a New Tab"
+msgstr ""
+
+#: includes/class.elementor.button.php:114
+#: includes/class.elementor.heading.php:74
+#: includes/class.elementor.heading.php:139
+msgid "Large"
+msgstr ""
+
+#: includes/class.elementor.button.php:126
+msgid "Buttons"
+msgstr ""
+
+#: includes/class.elementor.cards.php:10 includes/class.elementor.cards.php:82
+msgid "Cards"
+msgstr ""
+
+#: includes/class.elementor.cards.php:73
+#: includes/class.elementor.table-contents.php:74
+msgid "Button Text"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:10
+msgid "Carousel"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:40
+msgid "Form Style"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:43
+msgid "Horizontal"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:44
+msgid "Vertical"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:54
+msgid "Text Position"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:57
+msgid "Top"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:58
+msgid "Bottom"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:72
+msgid "Some Title"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:79
+msgid "Top Tag"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:94
+msgid "Bottom Text"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:95
+msgid "You can use some basic html tags, like <br>"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:103
+msgid "Bottom Tag"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:118
+msgid "Enable Call-to-Action"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:129
+msgid "Call-to-Action Label"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:131
+#: includes/class.elementor.types.php:86
+msgid "Button Label"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:141
+msgid "Call-to-Action URL"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:179
+msgid "Select Search Form"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:190
+msgid "Listing Types"
+msgstr ""
+
+#: includes/class.elementor.carousel.php:272
+msgid "Edit search form"
+msgstr ""
+
+#: includes/class.elementor.heading.php:49
+msgid "Title Tag"
+msgstr ""
+
+#: includes/class.elementor.heading.php:69
+msgid "Title Size"
+msgstr ""
+
+#: includes/class.elementor.heading.php:72
+#: includes/class.elementor.heading.php:137
+msgid "Small"
+msgstr ""
+
+#: includes/class.elementor.heading.php:73
+#: includes/class.elementor.heading.php:138
+msgid "Medium"
+msgstr ""
+
+#: includes/class.elementor.heading.php:75
+#: includes/class.elementor.heading.php:140
+msgid "XL"
+msgstr ""
+
+#: includes/class.elementor.heading.php:76
+#: includes/class.elementor.heading.php:141
+msgid "XXL"
+msgstr ""
+
+#: includes/class.elementor.heading.php:77
+#: includes/class.elementor.heading.php:142
+msgid "XXXL"
+msgstr ""
+
+#: includes/class.elementor.heading.php:95
+msgid "Sub-Title URL ( Optional )"
+msgstr ""
+
+#: includes/class.elementor.heading.php:103
+msgid "Sub-Title Icon ( Optional )"
+msgstr ""
+
+#: includes/class.elementor.heading.php:114
+msgid "Sub-Title Tag"
+msgstr ""
+
+#: includes/class.elementor.heading.php:134
+msgid "Sub-Title Size"
+msgstr ""
+
+#: includes/class.elementor.heading.php:169
+msgid "Text Color"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:24
+msgid "Listing Boxes"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:54
+msgid "Number of Listings"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:68
+msgid "Dynamic"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:69
+msgid "Static"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:115
+#: includes/class.elementor.listings.php:75
+msgid "Sorting"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:118
+#: includes/class.elementor.listings.php:78
+msgid "Latest"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:119
+#: includes/class.elementor.listings.php:79
+msgid "Top Rated"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:120
+#: includes/class.elementor.listings.php:80
+msgid "Priority"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:121
+#: includes/class.elementor.listings.php:81
+msgid "Random"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:129
+#: includes/class.elementor.listing-boxes.php:189
+#: includes/class.elementor.listings.php:89
+msgid "None"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:130
+#: includes/class.elementor.listings.php:90
+msgid "Categories"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:131
+#: includes/class.elementor.listings.php:91
+msgid "Regions"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:132
+#: includes/class.elementor.listing-boxes.php:192
+#: includes/class.elementor.listings.php:92
+msgid "Tags"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:151
+#: includes/class.elementor.listings.php:111
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:171
+#: includes/class.elementor.listings.php:131
+#, php-format
+msgid "Terms - %s"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:186
+msgid "Select Field to Display"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:190
+msgid "Region"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:191
+msgid "Category"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:213
+msgid "Show Rating"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:238
+#: includes/class.elementor.listings.php:157
+msgid "Please select a listing type"
+msgstr ""
+
+#: includes/class.elementor.listing-boxes.php:428
+msgid "No listings were found."
+msgstr ""
+
+#: includes/class.elementor.listings.php:12
+msgid "Listings"
+msgstr ""
+
+#: includes/class.elementor.listings.php:262
+msgid "No results were found."
+msgstr ""
+
+#: includes/class.elementor.php:70 includes/class.elementor.php:95
+msgid "Brikk"
+msgstr ""
+
+#: includes/class.elementor.table-contents.php:10
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/class.elementor.table-contents.php:58
+msgid "Price"
+msgstr ""
+
+#: includes/class.elementor.table-contents.php:82
+msgid "Button URL"
+msgstr ""
+
+#: includes/class.elementor.table-contents.php:90
+msgid "Highlight Column"
+msgstr ""
+
+#: includes/class.elementor.table-contents.php:102
+msgid "Table Column"
+msgstr ""
+
+#: includes/class.elementor.table-contents.php:129
+msgid "Most Popular"
+msgstr ""
+
+#: includes/class.elementor.types.php:10 includes/class.elementor.types.php:95
+msgid "Types"
+msgstr ""
+
+#: includes/class.elementor.types.php:40
+msgid "Height %"
+msgstr ""
+
+#: includes/class.elementor.types.php:104
+msgid "Enable overlay"
+msgstr ""

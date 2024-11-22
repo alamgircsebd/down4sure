@@ -1,0 +1,6 @@
+0000.000 (0) Opened log file at time: Fri, 22 Nov 2024 03:53:54 +0000 on http://down4sure.local
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7 PHP: 8.1.23 (fpm-fcgi, Darwin Alamgir-Hossain-MacBook-Air.local 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:16:51 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T8103 x86_64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12M | 52M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 16658.2 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.007 (0) Scheduled backup aborted - another backup of this type was apparently invoked by the WordPress scheduler only 153 seconds ago - the WordPress scheduler invoking events multiple times usually indicates a very overloaded server (or other plugins that mis-use the scheduler)

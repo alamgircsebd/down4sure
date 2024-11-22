@@ -1,0 +1,66 @@
+services:
+  db:
+    image: mariadb:10.6.4-focal
+    command: '--default-authentication-plugin=mysql_native_password'
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=somewordpress
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    ports:
+      - 33006:3306
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
+      start_period: 5s
+      interval: 5s
+      timeout: 5s
+      retries: 55
+  wpcli:
+    image: wordpress:cli
+    depends_on:
+      wordpress:
+        condition: service_started
+      db:
+        condition: service_healthy
+    user: www-data:www-data
+    command: wp core install --url=localhost:8080 --title=WPDev --admin_user=dev --admin_password=dev --admin_email=admin@example.com
+    volumes:
+      - wp_data:/var/www/html
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+  wordpress:
+    image: wordpress:6.2.2-php8.2-apache
+    volumes:
+      - wp_data:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./:/var/www/html/wp-content/plugins/envato-market/
+    ports:
+      - 8080:80
+    restart: always
+    extra_hosts:
+      - "themeforest.test:host-gateway"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DEBUG: 1
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'WP_DEBUG_LOG', true);
+        define( 'WP_DEBUG_DISPLAY', true );
+        if( !empty("$ENVATO_API_DOMAIN") ){
+          define('ENVATO_API_DOMAIN', "$ENVATO_API_DOMAIN");
+          define('ENVATO_API_HEADERS', $ENVATO_API_HEADERS);
+          define('MONOLITH_API_PATHS', $MONOLITH_API_PATHS);
+          // Disable the following line to test the plugin against the production api.
+          define( 'ENVATO_LOCAL_DEVELOPMENT', true );
+        }
+volumes:
+  db_data:
+  wp_data:

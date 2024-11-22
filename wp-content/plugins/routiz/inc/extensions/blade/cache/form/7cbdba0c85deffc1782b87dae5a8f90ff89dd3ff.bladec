@@ -1,0 +1,32 @@
+<?php echo $this->runChild('label.index'); 
+ stripslashes($value);
+ ?>
+
+<?php wp_enqueue_script('jquery');
+             $settings = array(
+                'wpautop' => true,
+                'media_buttons' => true,        
+                'textarea_rows' => 10,         
+                'tabindex' => '',         
+                'editor_css' => '', 
+                'editor_class' => '', 
+                'teeny' => false,
+                'dfw' => false,
+                'tinymce' => true,
+                'quicktags' => true,
+                'drag_drop_upload' => false
+             );
+             wp_editor($value , static::e($id), $settings);
+
+  ?>
+<script type="text/javascript">
+    jQuery(function ($) {
+    setTimeout(function () {
+        for (var i = 0; i < tinymce.editors.length; i++) {
+            tinymce.editors[i].onChange.add(function (ed, e) {
+                ed.save();
+            });
+        }
+    }, 1000);
+});
+</script>

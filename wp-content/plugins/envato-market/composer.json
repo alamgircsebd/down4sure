@@ -1,0 +1,20 @@
+{
+  "name": "envato/wp-envato-market",
+  "description": "WordPress Theme & Plugin management for the Envato Market.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Envato",
+      "homepage": "https://envato.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "php-coveralls/php-coveralls": "^2.6",
+    "phpunit/phpunit": "^9.6",
+    "squizlabs/php_codesniffer": "^3.7"
+  }
+}
